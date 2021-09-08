@@ -52,7 +52,7 @@
 
                     <td> @ViewBag.lista[i].Estatura</td>
 
-                    @if (@ViewBag.IMCL[i] > 20) 
+                    @if (@ViewBag.IMCL[i] >18.5 && @ViewBag.IMCL[i]<=24.9) 
                     {
                         <td style="color:rgb(41 129 11 / 0.92)">@ViewBag.IMCL[i] </td>
                     }
